@@ -1,0 +1,413 @@
+body {
+  background-color: white;
+  font-family: 'Assistant', sans-serif;
+  color: darkblue;
+}
+
+.navbar-brand img {
+  max-height: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: darkblue;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: darkblue !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -17px !important;
+  height: 98px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: darkblue;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #3333c5;
+  color: white;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -100px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #cfc9c9;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #282e85;
+  color: white;
+}
+
+header .btn-get-started:hover {
+  background-color: #3333c5;
+  color: white;
+}
+
+.section-paketwisata {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-paketwisata-heading {
+  margin-top: 50px;
+}
+
+.section-paketwisata-heading h2 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-paketwisata-content .section-paketwisata-travel .card-travel {
+  margin-top: -175px;
+  min-height: 380px;
+  background-color: #DDD;
+  color: white;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-paketwisata-content .section-paketwisata-travel .travel-location {
+  font-family: 'Assistant', sans-serif;
+  margin-top: 75px;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.952);
+}
+
+.section-paketwisata-content .section-paketwisata-travel .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: white;
+}
+
+.section-paketwisata-content .section-paketwisata-travel .travel-button .btn-travel-details:hover {
+  background-color: #FFAE6F;
+  color: white;
+}
+
+.section-networks {
+  background-color: white;
+  margin-top: -150px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks img {
+  max-width: 50%;
+  margin-top: -65px;
+  margin-left: 400px;
+}
+
+.section-ulasan-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-ulasan-heading p {
+  font-size: 25px;
+  margin-right: 400px;
+  text-align: center;
+}
+
+.section-ulasan-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-ulasan-content .card-ulasan {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-ulasan-content .card-ulasan .ulasan-content {
+  min-height: 380px;
+}
+
+.section-ulasan-content .card-ulasan h3 {
+  font-size: 22px;
+}
+
+.section-ulasan-content .card-ulasan .ulasan {
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+  min-height: 160px;
+}
+
+.section-ulasan-content .card-ulasan .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-ulasan-content .card-ulasan hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-ulasan-content .card-ulasan img {
+  max-width: 50%;
+}
+
+.section-ulasan-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+
+.section-ulasan-content .btn-need-help:hover {
+  background-color: #FAFAFA;
+  color: #C3C3C3;
+}
+
+.section-ulasan-content .btn-get-started {
+  background-color: #FF9E53;
+  color: white;
+}
+
+.section-ulasan-content .btn-get-started:hover {
+  background-color: #FFAE6F;
+  color: white;
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: 100px;
+  min-height: 50vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+  margin-bottom: 21px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  background-color: white;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+  background-color: white;
+}
+
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: darkblue;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  margin-top: -3px;
+  font-size: 18px;
+  color: darkblue;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: darkblue;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: darkblue;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: darkblue;
+  color: white;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #3333c5;
+  color: white;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.section-details-content .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+  width: auto;
+}
+
+.section-details-content .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF9E53;
+  color: white;
+  border-radius: 10;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #FFAE6F;
+  color: white;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 26px;
+  color: darkblue;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: darkblue;
+  color: white;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #3333c5;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

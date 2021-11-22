@@ -1,0 +1,442 @@
+body {
+    background-color: white;
+    font-family: 'Assistant', sans-serif;
+    color: darkblue;
+}
+
+// Navbar
+.navbar-brand{
+    img{
+        max-height: 70px;
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: darkblue;
+
+            &.active{
+                font-weight: bold;
+                color: darkblue !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -17px !important;
+
+    height: 98px;
+    border-radius: 0;
+}
+
+.btn-login {
+    background-color: darkblue;
+    color: white;
+
+    &:hover {
+        background-color: rgb(51, 51, 197);
+        color: white;
+    }
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -100px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1, p{
+        color: white;
+    }
+
+    h1{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: rgba($color: rgb(207, 201, 201), $alpha: 1.0);
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: rgba($color: rgb(40, 46, 133), $alpha: 1.0);
+        color: white;
+
+        &:hover {
+            background-color: rgb(51, 51, 197);
+            color: white;
+        }
+    }
+}
+
+    // paketwisata
+    .section-paketwisata{
+        min-height: 540px;
+        background-color: #051334;
+        margin-top: -50px;
+        margin-bottom: -230px;
+    }
+
+    .section-paketwisata-heading{
+        margin-top: 50px;
+
+        h2{
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+
+.section-paketwisata-content{
+    .section-paketwisata-travel{
+        .card-travel{
+            margin-top: -175px;
+            min-height: 380px;
+            background-color: #DDD;
+            color: white;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-location{
+            font-family: 'Assistant', sans-serif;
+            margin-top: 75px;
+            font-size: 26px;
+            color: rgba(255, 255, 255, 0.952);
+        }
+
+        .travel-button{
+            .btn-travel-details{
+                background-color: #FF9E53;
+                color: white;
+            
+
+            &:hover {
+                background-color: #FFAE6F;
+                color: white;
+            }
+        }
+        }
+    }
+}
+
+.section-networks{
+    background-color: white;
+    margin-top: -150px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    img{
+        max-width: 50%;
+        margin-top: -65px;
+        margin-left: 400px;
+    }
+}
+
+.section-ulasan-heading{
+    background: linear-gradient(#fff 0%, #f7f9ff 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    p {
+        font-size: 25px;
+        margin-right: 400px;
+        text-align: center;
+    }
+}
+
+.section-ulasan-content{
+    margin-top: -300px;
+    padding-bottom: 50px;
+
+    .card-ulasan{
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .ulasan-content{
+            min-height: 380px;
+        }
+
+        h3{
+            font-size: 22px;
+        }
+        .ulasan{
+            font-weight: 200;
+            font-size: 26px;
+            text-align: center;
+            color: #6e6e6e;
+            min-height: 160px;
+        }
+
+        .trip-to{
+            font-weight: normal;
+            font-size: 22px;
+            color: #6e6e6e;;
+        }
+
+        hr{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        img{
+            max-width: 50%;
+        }
+    }
+
+
+    .btn-need-help{
+            background-color: #F2F2F2;
+            color: #C3C3C3;
+            
+
+            &:hover {
+            background-color: #FAFAFA;
+            color: #C3C3C3;
+            }
+    }
+
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: white;
+    
+
+    &:hover {
+        background-color: #FFAE6F;
+        color: white;
+    }
+}
+
+}
+
+.section-footer{
+    a{
+        color: #071C4D;
+    }
+}
+
+.section-details-header{
+    min-height: 310px;
+    background: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content{
+    margin-top: 100px;
+    min-height: 50vh;
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item{
+        &.active{
+            font-weight: bold;
+            color: darkblue;
+        }
+    }
+
+    .card-details{
+        padding: 30px;
+        border-radius: 11px;
+        margin-bottom: 21px;
+
+        h1{
+            font-size: 26px;
+        }
+
+        h2{
+            font-size: 20px;
+            background-color: white;
+        }
+
+        p{
+            font-size: 18px;
+            color: #B1B1B1;
+            background-color: white;
+        }
+
+        .trip-informations{
+            th{
+                font-weight: 300;
+                font-size: 18px;
+                color: darkblue;
+            }
+            
+            td{
+                font-weight: 300;
+                font-size: 18px;
+                color: #B1B1B1;
+            }
+
+            .text-blue{
+                color: darkblue;
+                font-weight: bold;
+            }
+
+            .text-orange{
+                color: #FF9E53;
+                font-weight: bold;
+            }
+        }
+
+        .payment-instructions{
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+
+        .bank{
+            .bank-item{
+                h3{
+                    margin-top: -3px;
+                    font-size: 18px;
+                    color: darkblue;
+                    margin-bottom: 0;
+                }
+
+                p{
+                    margin-bottom: 0;
+                }
+
+                .description{
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    p{
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: darkblue;
+                    }
+                }
+            }
+
+            .bank-image{
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+        }
+
+        h3{
+            font-weight: 300;
+            font-size: 14px;
+            color: darkblue;
+        }
+        
+        .disclaimer{
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+        
+        .btn-add-now{
+            background-color: darkblue;
+            color: white;
+
+            &:hover{
+                background-color: rgb(51, 51, 197);
+                color: white;
+            }
+        }
+    }
+
+    .features{
+        margin-top: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+        color: #071C4D;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .description{
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+        width: auto;
+    }
+
+    .features-image{
+        width: 45px;
+        height: 45px;
+        float: left;
+    }
+
+    .gallery{
+        .xzoom-container{
+            display: block;
+
+            .xzoom{
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive{
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
+            }
+        }
+        
+    }
+
+    .join-container{
+        margin-top: -16px;
+    }
+
+    .btn-join-now{
+        background-color: #FF9E53;
+        color: white;
+        border-radius: 10;
+
+        &:hover{
+            background-color: #FFAE6F;
+            color: white;
+        }
+    }
+}
+
+.section-success{
+    height: 90vh;
+
+    h1{
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 26px;
+        color: darkblue;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page{
+        border-radius: 4px;
+        background-color: darkblue;
+        color: white;
+
+        &:hover{
+            background-color: rgb(51, 51, 197);
+            color: white;
+        }
+    }
+}
+
